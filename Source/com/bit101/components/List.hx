@@ -385,7 +385,7 @@ class List extends Component
 	{
 		cast(_listItems[_selectedIndex - offset], ListItem).selected =  true;
 	}
-	
+
     dispatchEvent(new Event(Event.SELECT));
   }
   
